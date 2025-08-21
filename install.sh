@@ -303,7 +303,7 @@ if [ -d "/data/data/com.termux/files/usr/" ]; then
     echo -e " ${lm}"
     termux
     # dx check if D1DOS folder exists
-    if [ -d "$HOME/NSX" ]; then
+    if [ -d "$HOME/CODEX" ]; then
         sleep 2
 	clear
 	banner
