@@ -220,7 +220,7 @@ read -p "[+]──[Enter Your Name]────► " name
 echo
     
     # Specify the input and output file names
-    INPUT_FILE="$HOME/CODEX/files/.zshrc"
+    INPUT_FILE="$HOME/NSX/files/.zshrc"
     # Temporary file for output
 
     # Use sed to replace SIMU with the name and save to a temporary file
@@ -259,11 +259,11 @@ clear
 banner() {
 echo
 echo
-echo -e "   ${y}███╗░░██╗░██████╗██╗░░██╗"
-echo -e "   ${y}████╗░██║██╔════╝██║░░██║"
-echo -e "   ${y}██╔██╗██║╚█████╗░███████║"
-echo -e "   ${c}██║╚████║░╚═══██╗██╔══██║"
-echo -e "   ${c}██║░╚███║██████╔╝██║░░██║"
+echo -e "   ${y}███╗░░██╗░██████╗██╗  ██╗"
+echo -e "   ${y}████╗░██║██╔════╝╚██╗██╔╝"
+echo -e "   ${y}██╔██╗██║╚█████╗░ ╚███╔╝"
+echo -e "   ${c}██║╚████║░╚═══██╗ ██╔██╗ "
+echo -e "   ${c}██║░╚███║██████╔╝██╔╝ ██╗"
 echo -e "   ${c}╚═╝░░╚══╝╚═════╝░╚═╝░░╚═╝${n}"
 echo -e "${y}               +-+-+-+-+-+-+-+-+"
 echo -e "${c}               |N|S|-|N|O|M|A|N|"
@@ -345,11 +345,11 @@ echo -e " ${A} ${g} Wait for the next update using Linux...!¡"
 banner2() {
 echo
 echo
-echo -e "   ${y}███╗░░██╗░██████╗██╗░░██╗"
-echo -e "   ${y}████╗░██║██╔════╝██║░░██║"
-echo -e "   ${y}██╔██╗██║╚█████╗░███████║"
-echo -e "   ${c}██║╚████║░╚═══██╗██╔══██║"
-echo -e "   ${c}██║░╚███║██████╔╝██║░░██║"
+echo -e "   ${y}███╗░░██╗░██████╗██╗  ██╗"
+echo -e "   ${y}████╗░██║██╔════╝╚██╗██╔╝"
+echo -e "   ${y}██╔██╗██║╚█████╗░ ╚███╔╝ "
+echo -e "   ${c}██║╚████║░╚═══██╗ ██╔██╗ "
+echo -e "   ${c}██║░╚███║██████╔╝██╔╝ ██╗"
 echo -e "   ${c}╚═╝░░╚══╝╚═════╝░╚═╝░░╚═╝${n}"
 echo -e "${y}               +-+-+-+-+-+-+-+-+"
 echo -e "${c}               |N|S|-|N|O|M|A|N|"
