@@ -114,7 +114,7 @@ if [ -n "$messages" ]; then
     banner  # Assuming you have a function named 'banner'
     echo -e " ${A} ${c}Tools Updated ${n}| ${c}New ${g}$messages"
     sleep 3
-    git clone https://github.com/Alpha-Codex369/CODEX.git &> /dev/null &
+    git clone https://github.com/SNTricks/NSX.git &> /dev/null &
     spin
     cd CODEX
      bash install.sh
