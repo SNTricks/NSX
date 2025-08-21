@@ -146,8 +146,8 @@ echo
 
 pip install lolcat >/dev/null 2>&1
 rm -rf data/data/com.termux/files/usr/bin/chat >/dev/null 2>&1
-mv $HOME/NSX/files/report $HOME/.Codex-simu
-mv $HOME/NSX/files/chat.sh /data/data/com.termux/files/usr/bin/chat
+mv $HOME/CODEX/files/report $HOME/.Codex-simu
+mv $HOME/CODEX/files/chat.sh /data/data/com.termux/files/usr/bin/chat
 chmod +x /data/data/com.termux/files/usr/bin/chat
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh >/dev/null 2>&1
 rm -rf /data/data/com.termux/files/usr/etc/motd
@@ -167,17 +167,17 @@ simu="$ds/colors.properties"
 if [ -f "$dx" ]; then
     echo
 else
-	cp $HOME/NSX/files/font.ttf "$ds"
+	cp $HOME/CODEX/files/font.ttf "$ds"
 fi
 
 if [ -f "$simu" ]; then
     echo
 else 
         
-	cp $HOME/NSX/files/colors.properties "$ds"
+	cp $HOME/CODEX/files/colors.properties "$ds"
 fi
-cp $HOME/NSX/files/ASCII-Shadow.flf $PREFIX/share/figlet/
-mv $HOME/NSX/files/remove /data/data/com.termux/files/usr/bin/
+cp $HOME/CODEX/files/ASCII-Shadow.flf $PREFIX/share/figlet/
+mv $HOME/CODEX/files/remove /data/data/com.termux/files/usr/bin/
 chmod +x /data/data/com.termux/files/usr/bin/remove
 termux-reload-settings
 }
@@ -185,7 +185,7 @@ dxnetcheck() {
 clear
 echo
 echo -e "               ${g}╔═══════════════╗"
-echo -e "               ${g}║ ${n}</>  ${c}NSX${g}   ║"
+echo -e "               ${g}║ ${n}</>  ${c}DARK-X${g}   ║"
 echo -e "               ${g}╚═══════════════╝"
 echo -e "  ${g}╔════════════════════════════════════════════╗"
 echo -e "  ${g}║  ${C} ${y}Checking Your Internet Connection¡${g}  ║"
@@ -220,12 +220,12 @@ read -p "[+]──[Enter Your Name]────► " name
 echo
     
     # Specify the input and output file names
-    INPUT_FILE="$HOME/NSX/files/.zshrc"
+    INPUT_FILE="$HOME/CODEX/files/.zshrc"
     # Temporary file for output
 
     # Use sed to replace SIMU with the name and save to a temporary file
-    sed "s/NOMAN/$name/g" "$INPUT_FILE" > "$HOME/.zshrc"
-    sed "s/NOMAN/$name/g" "$HOME/NSX/files/.nsx.zsh-theme" > "$HOME/.oh-my-zsh/themes/nsx.zsh-theme"
+    sed "s/SIMU/$name/g" "$INPUT_FILE" > "$HOME/.zshrc"
+    sed "s/SIMU/$name/g" "$HOME/CODEX/files/.codex.zsh-theme" > "$HOME/.oh-my-zsh/themes/codex.zsh-theme"
     echo "$name" > "$USERNAME_FILE"
     # Check if sed was successful
     if [[ $? -eq 0 ]]; then
@@ -235,7 +235,7 @@ echo
     echo
     echo -e "		        ${g}Hey ${y}$name"
     echo -e "${c}              (\_/)"
-    echo -e "              (${y}^ω^${c})     ${g}I'm NS Noman${c}"
+    echo -e "              (${y}^ω^${c})     ${g}I'm Dx-Simu${c}"
     echo -e "             ⊂(___)づ  ⋅˚₊‧ ଳ ‧₊˚ ⋅"
     echo
     echo -e " ${A} ${c}Your Banner created ${g}Successfully¡${c}"
@@ -366,7 +366,7 @@ echo -e "${b}╰═════════════════════�
         fi
 echo
 echo -e "${b}╭══ ${g}〄 ${y}NSX ${g}〄"
-echo -e "${b}┃❁ ${g}ᴄʀᴇᴀᴛᴏʀ: ${y}NSX"
+echo -e "${b}┃❁ ${g}ᴄʀᴇᴀᴛᴏʀ: ${y}NS Noman"
 echo -e "${b}╰┈➤ ${g}Hey ${y}Dear"
 echo
 echo -e "${c}╭════════════════════════════════════════════════⊷"
