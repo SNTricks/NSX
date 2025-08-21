@@ -4,7 +4,7 @@
 
 <p align="center"><b>NSX Banner</b <code></code></p>
 
-  [![Telegram2](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/alphacodex369)
+  [![Telegram2](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/NSNoman)
 
 
 
