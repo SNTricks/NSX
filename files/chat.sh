@@ -223,7 +223,7 @@ clear
         echo -e "${lm}"
         echo -e " $D"
         echo -e "  ${c}┏┓┓┏┏┓┏┳┓"
-        echo -e "  ${c}┃ ┣┫┣┫ ┃               ${C} ${g}t.me/Codex_369"
+        echo -e "  ${c}┃ ┣┫┣┫ ┃               ${C} ${g}t.me/NSNoman"
         echo -e "  ${c}┗┛┛┗┛┗ ┻"
         echo -e "  $T"
         echo -e "${lm}"
