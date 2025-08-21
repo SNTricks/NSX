@@ -55,4 +55,4 @@ apt update && apt upgrade -y ; pkg install git -y ; git clone https://github.com
 
 </details>
 
-  [![Telegram1](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/Termuxcodex)
+  [![Telegram1](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/NSNoman)
