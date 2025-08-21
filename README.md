@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<p align="center"><b>Codex Banner</b <code></code></p>
+<p align="center"><b>NSX Banner</b <code></code></p>
 
   [![Telegram2](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/alphacodex369)
 
@@ -20,10 +20,10 @@ apt upgrade -y
 pkg install git -y
 ```
 ```
-git clone https://github.com/Alpha-Codex369/CODEX.git
+git clone https://github.com/SNTricks/NSX.git
 ```
 ```
-cd CODEX/
+cd NSX/
 ```
 ```
 chmod +x *
@@ -41,7 +41,7 @@ exit
 ### AT ONCE :
 
 ```
-apt update && apt upgrade -y ; pkg install git -y ; git clone https://github.com/Alpha-Codex369/CODEX.git ; cd CODEX/ ; chmod +x * ; bash install.sh
+apt update && apt upgrade -y ; pkg install git -y ; git clone https://github.com/SNTricks/NSX.git ; cd CODEX/ ; chmod +x * ; bash install.sh
 ```
 
 <details id="missing-code-coverage">
