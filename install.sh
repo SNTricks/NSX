@@ -255,7 +255,7 @@ donotchange() {
         echo
         echo -e "		        ${g}Hey ${y}$name"
         echo -e "${c}              (\_/)"
-        echo -e "              (${y}^ω^${c})     ${g}I'm NSX-Simu${c}"
+        echo -e "              (${y}^ω^${c})     ${g}I'm NS Noman${c}"
         echo -e "             c(___)o  .˚‧º‧˚"
         echo
         echo -e " ${A} ${c}Your Banner created ${g}Successfully!${c}"
@@ -276,7 +276,7 @@ donotchange() {
 banner() {
     echo
     echo
-    echo -e "   ${y}░███╗░░██╗░██████╗██╗░░██╗"
+    echo -e "   ${y}███╗░░██╗░██████╗██╗░░██╗"
     echo -e "   ${y}████╗░██║██╔════╝╚██╗██╔╝"
     echo -e "   ${y}██╔██╗██║╚█████╗░░╚███╔╝░"
     echo -e "   ${c}██║╚████║░╚═══██╗░██╔██╗░"
@@ -289,17 +289,17 @@ banner() {
     
     if [ $random_number -eq 0 ]; then
         echo -e "${b}╭════════════════════════⊷"
-        echo -e "${b}┃ ${g}[${n}ツ${g}] GitHub: ${y}github.com/SNTricks"
+        echo -e "${b}┃ ${g}[${n}ツ${g}] GitHub: ${y}t.me/NSNoman"
         echo -e "${b}╰════════════════════════⊷"
     else
         echo -e "${b}╭══════════════════════════⊷"
-        echo -e "${b}┃ ${g}[${n}ツ${g}] Repo: ${y}github.com/SNTricks/NSX"
+        echo -e "${b}┃ ${g}[${n}ツ${g}] Repo: ${y}t.me/NSNoman"
         echo -e "${b}╰══════════════════════════⊷"
     fi
     
     echo
     echo -e "${b}╭══ ${g}〄 ${y}NSX ${g}〄"
-    echo -e "${b}┃❁ ${g}Creator: ${y}SNTricks"
+    echo -e "${b}┃❁ ${g}Creator: ${y}NS Noman"
     echo -e "${b}┃❁ ${g}Device: ${y}${VENDOR} ${MODEL}"
     echo -e "${b}╰┈➤ ${g}Hey ${y}Dear"
     echo
@@ -366,7 +366,7 @@ setupx() {
 banner2() {
     echo
     echo
-    echo -e "   ${y}░███╗░░██╗░██████╗██╗░░██╗"
+    echo -e "   ${y}███╗░░██╗░██████╗██╗░░██╗"
     echo -e "   ${y}████╗░██║██╔════╝╚██╗██╔╝"
     echo -e "   ${y}██╔██╗██║╚█████╗░░╚███╔╝░"
     echo -e "   ${c}██║╚████║░╚═══██╗░██╔██╗░"
@@ -379,17 +379,17 @@ banner2() {
     
     if [ $random_number -eq 0 ]; then
         echo -e "${b}╭════════════════════════⊷"
-        echo -e "${b}┃ ${g}[${n}ツ${g}] GitHub: ${y}github.com/SNTricks"
+        echo -e "${b}┃ ${g}[${n}ツ${g}] GitHub: ${y}t.me/NSNoman"
         echo -e "${b}╰════════════════════════⊷"
     else
         echo -e "${b}╭══════════════════════════⊷"
-        echo -e "${b}┃ ${g}[${n}ツ${g}] Repo: ${y}github.com/SNTricks/NSX"
+        echo -e "${b}┃ ${g}[${n}ツ${g}] Repo: ${y}t.me/NSNoman"
         echo -e "${b}╰══════════════════════════⊷"
     fi
     
     echo
     echo -e "${b}╭══ ${g}〄 ${y}NSX ${g}〄"
-    echo -e "${b}┃❁ ${g}Creator: ${y}SNTricks"
+    echo -e "${b}┃❁ ${g}Creator: ${y}NS Noman"
     echo -e "${b}╰┈➤ ${g}Hey ${y}Dear"
     echo
     echo -e "${c}╭════════════════════════════════════════════════⊷"
@@ -447,9 +447,9 @@ while true; do
                 setupx
                 ;;
             "Premium")
-                echo -e "\n ${g}[${n}${HOST}${g}] ${c}Redirecting to GitHub..!${n}"
+                echo -e "\n ${g}[${n}${HOST}${g}] ${c}Redirecting to Telegram..!${n}"
                 sleep 1
-                xdg-open "https://github.com/SNTricks/NSX"
+                xdg-open "https://t.me/NSNoman"
                 cd "$HOME"
                 rm -rf NSX 2>/dev/null
                 exit 0
