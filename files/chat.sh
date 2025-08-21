@@ -33,7 +33,7 @@ inter() {
 clear
 echo
 echo -e "               ${g}╔═══════════════╗"
-echo -e "               ${g}║ ${n}</>  ${c}DARK-X${g}   ║"
+echo -e "               ${g}║ ${n}</>  ${c}NSX${g}   ║"
 echo -e "               ${g}╚═══════════════╝"
 echo -e "  ${g}╔════════════════════════════════════════════╗"
 echo -e "  ${g}║  ${C} ${y}Checking Your Internet Connection¡${g}  ║"
@@ -279,7 +279,7 @@ echo -e "      ${y} (____/(__)(__)(_)\_)(_)\_)   (_/\_)\n\n"
     echo
     echo -e "		        ${g}Hey ${y}$username"
     echo -e "${c}              (\_/)"
-    echo -e "              (${y}^ω^${c})     ${g}I'm Dx-Simu${c}"
+    echo -e "              (${y}^ω^${c})     ${g}I'm NS Noman${c}"
     echo -e "             ⊂(___)づ  ⋅˚₊‧ ଳ ‧₊˚ ⋅"
     echo
     echo -e " ${A} ${c}Your account created ${g}Successfully¡${c}"
