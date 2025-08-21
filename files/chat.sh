@@ -118,10 +118,12 @@ display_messages() {
     banned=$(curl -s "$URL/ban" 2>/dev/null | jq -r --arg user "$username" '.[] | select(.username == $user) | "Banned — |\(.username)|  \(.bn_mesg)"' 2>/dev/null || echo "")
     if [ -n "$banned" ]; then
         load
-        echo -e "     ${c}____    __    ____  _  _     _  _ "
-        echo -e "    ${c}(  _ \  /__\  (  _ \( )/ )___( \/ )"
-        echo -e "    ${y} )(_) )/(__)\  )   / )  ((___))  ("
-        echo -e "   ${y} (____/(__)(__)(_)\_)(_)\_)   (_/\_)\n"
+        echo -e " ${c}███╗   ██╗███████╗██╗  ██╗"
+        echo -e " ${c}████╗  ██║██╔════╝╚██╗██╔╝"
+        echo -e " ${y}██╔██╗ ██║███████╗ ╚███╔╝ "
+        echo -e " ${y}██║╚██╗██║╚════██║ ██╔██╗ "
+        echo -e " ${c}██║ ╚████║███████║██╔╝ ██╗"
+        echo -e " ${c}╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝\n"
         echo -e "         ${r}$banned${n}"
         echo
         exit 0
@@ -172,10 +174,12 @@ mkdir -p "$USERNAME_DIR"
 save_username() {
     clear
     load
-    echo -e "        ${c}____    __    ____  _  _     _  _ "
-    echo -e "       ${c}(  _ \  /__\  (  _ \( )/ )___( \/ )"
-    echo -e "       ${y} )(_) )/(__)\  )   / )  ((___))  ("
-    echo -e "      ${y} (____/(__)(__)(_)\_)(_)\_)   (_/\_)\n\n"
+    echo -e " ${c}███╗   ██╗███████╗██╗  ██╗"
+    echo -e " ${c}████╗  ██║██╔════╝╚██╗██╔╝"
+    echo -e " ${y}██╔██╗ ██║███████╗ ╚███╔╝ "
+    echo -e " ${y}██║╚██╗██║╚════██║ ██╔██╗ "
+    echo -e " ${c}██║ ╚████║███████║██╔╝ ██╗"
+    echo -e " ${c}╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝\n\n"
     echo -e " ${A} ${c}Enter Your Anonymous ${g}Username${c}"
     echo
     read -p "[+]-[Enter Your Username]----> " username
@@ -191,7 +195,7 @@ save_username() {
     echo
     echo -e "		        ${g}Hey ${y}$username"
     echo -e "${c}              (\\_/)"
-    echo -e "              (${y}^ω^${c})     ${g}I'm NSX-Simu${c}"
+    echo -e "              (${y}^ω^${c})     ${g}I'm NS Noman${c}"
     echo -e "             c(___)o  .·°'¨"
     echo
     echo -e " ${A} ${c}Your account created ${g}Successfully!${c}"
