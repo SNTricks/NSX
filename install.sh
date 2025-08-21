@@ -167,17 +167,17 @@ simu="$ds/colors.properties"
 if [ -f "$dx" ]; then
     echo
 else
-	cp $HOME/CODEX/files/font.ttf "$ds"
+	cp $HOME/NSX/files/font.ttf "$ds"
 fi
 
 if [ -f "$simu" ]; then
     echo
 else 
         
-	cp $HOME/CODEX/files/colors.properties "$ds"
+	cp $HOME/NSX/files/colors.properties "$ds"
 fi
-cp $HOME/CODEX/files/ASCII-Shadow.flf $PREFIX/share/figlet/
-mv $HOME/CODEX/files/remove /data/data/com.termux/files/usr/bin/
+cp $HOME/NSX/files/ASCII-Shadow.flf $PREFIX/share/figlet/
+mv $HOME/NSX/files/remove /data/data/com.termux/files/usr/bin/
 chmod +x /data/data/com.termux/files/usr/bin/remove
 termux-reload-settings
 }
@@ -185,7 +185,7 @@ dxnetcheck() {
 clear
 echo
 echo -e "               ${g}╔═══════════════╗"
-echo -e "               ${g}║ ${n}</>  ${c}DARK-X${g}   ║"
+echo -e "               ${g}║ ${n}</>  ${c}NSX${g}   ║"
 echo -e "               ${g}╚═══════════════╝"
 echo -e "  ${g}╔════════════════════════════════════════════╗"
 echo -e "  ${g}║  ${C} ${y}Checking Your Internet Connection¡${g}  ║"
@@ -224,8 +224,8 @@ echo
     # Temporary file for output
 
     # Use sed to replace SIMU with the name and save to a temporary file
-    sed "s/SIMU/$name/g" "$INPUT_FILE" > "$HOME/.zshrc"
-    sed "s/SIMU/$name/g" "$HOME/CODEX/files/.codex.zsh-theme" > "$HOME/.oh-my-zsh/themes/codex.zsh-theme"
+    sed "s/NOMAN/$name/g" "$INPUT_FILE" > "$HOME/.zshrc"
+    sed "s/NOMAN/$name/g" "$HOME/NSX/files/.nsx.zsh-theme" > "$HOME/.oh-my-zsh/themes/nsx.zsh-theme"
     echo "$name" > "$USERNAME_FILE"
     # Check if sed was successful
     if [[ $? -eq 0 ]]; then
@@ -235,7 +235,7 @@ echo
     echo
     echo -e "		        ${g}Hey ${y}$name"
     echo -e "${c}              (\_/)"
-    echo -e "              (${y}^ω^${c})     ${g}I'm Dx-Simu${c}"
+    echo -e "              (${y}^ω^${c})     ${g}I'm NS Noman${c}"
     echo -e "             ⊂(___)づ  ⋅˚₊‧ ଳ ‧₊˚ ⋅"
     echo
     echo -e " ${A} ${c}Your Banner created ${g}Successfully¡${c}"
@@ -271,16 +271,16 @@ echo -e "${y}               +-+-+-+-+-+-+-+-+${n}"
 echo
  if [ $random_number -eq 0 ]; then
 echo -e "${b}╭════════════════════════⊷"
-echo -e "${b}┃ ${g}[${n}ム${g}] ᴛɢ: ${y}t.me/Termuxcodex"
+echo -e "${b}┃ ${g}[${n}ム${g}] ᴛɢ: ${y}t.me/NSNoman"
 echo -e "${b}╰════════════════════════⊷"
         else
 echo -e "${b}╭══════════════════════════⊷"
-echo -e "${b}┃ ${g}[${n}ム${g}] ᴛɢ: ${y}t.me/alphacodex369"
+echo -e "${b}┃ ${g}[${n}ム${g}] ᴛɢ: ${y}t.me/NSNoman"
 echo -e "${b}╰══════════════════════════⊷"
         fi
 echo
-echo -e "${b}╭══ ${g}〄 ${y}ᴄᴏᴅᴇx ${g}〄"
-echo -e "${b}┃❁ ${g}ᴄʀᴇᴀᴛᴏʀ: ${y}ᴅx-ᴄᴏᴅᴇx"
+echo -e "${b}╭══ ${g}〄 ${y}NSX ${g}〄"
+echo -e "${b}┃❁ ${g}ᴄʀᴇᴀᴛᴏʀ: ${y}NSX"
 echo -e "${b}┃❁ ${g}ᴅᴇᴠɪᴄᴇ: ${y}${VENDOR} ${MODEL}"
 echo -e "${b}╰┈➤ ${g}Hey ${y}Dear"
 echo
@@ -303,7 +303,7 @@ if [ -d "/data/data/com.termux/files/usr/" ]; then
     echo -e " ${lm}"
     termux
     # dx check if D1DOS folder exists
-    if [ -d "$HOME/CODEX" ]; then
+    if [ -d "$HOME/NSX" ]; then
         sleep 2
 	clear
 	banner
@@ -352,12 +352,12 @@ echo -e "   ${c}██║░░██╗██║░░██║██║░░�
 echo -e "   ${c}╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗"
 echo -e "   ${c}░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝${n}"
 echo -e "${y}               +-+-+-+-+-+-+-+-+"
-echo -e "${c}               |D|S|-|C|O|D|E|X|"
+echo -e "${c}               |N|S|-|N|O|M|A|N|"
 echo -e "${y}               +-+-+-+-+-+-+-+-+${n}"
 echo
  if [ $random_number -eq 0 ]; then
 echo -e "${b}╭════════════════════════⊷"
-echo -e "${b}┃ ${g}[${n}ム${g}] ᴛɢ: ${y}t.me/Termuxcodex"
+echo -e "${b}┃ ${g}[${n}ム${g}] ᴛɢ: ${y}t.me/NSNoman"
 echo -e "${b}╰════════════════════════⊷"
         else
 echo -e "${b}╭══════════════════════════⊷"
@@ -365,8 +365,8 @@ echo -e "${b}┃ ${g}[${n}ム${g}] ᴛɢ: ${y}t.me/NSNoman"
 echo -e "${b}╰══════════════════════════⊷"
         fi
 echo
-echo -e "${b}╭══ ${g}〄 ${y}ᴄᴏᴅᴇx ${g}〄"
-echo -e "${b}┃❁ ${g}ᴄʀᴇᴀᴛᴏʀ: ${y}ᴅx-ᴄᴏᴅᴇx"
+echo -e "${b}╭══ ${g}〄 ${y}NSX ${g}〄"
+echo -e "${b}┃❁ ${g}ᴄʀᴇᴀᴛᴏʀ: ${y}NSX"
 echo -e "${b}╰┈➤ ${g}Hey ${y}Dear"
 echo
 echo -e "${c}╭════════════════════════════════════════════════⊷"
